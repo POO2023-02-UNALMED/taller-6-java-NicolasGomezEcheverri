@@ -31,7 +31,7 @@ public class Pais {
         this.cantidadVendidos = cantidadVendidos;
     }
 
-    public Pais paisMasVendedor() {
+    public static Pais paisMasVendedor() {
         int mayor = 0;
         Pais pais = null;
         for (Pais p : paises) {
